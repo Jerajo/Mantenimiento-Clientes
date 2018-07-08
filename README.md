@@ -8,3 +8,7 @@ Proyecto de ejemplo. Con formulario de windows form para el mantenimiento de cli
 ## Ejemplos de summary
 
 ![Imgur](https://i.imgur.com/dJ9QYoq.png)
+
+## Captura de la aplicación
+
+![Imgur](https://i.imgur.com/U672B2O.png)
