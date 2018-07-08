@@ -1,0 +1,130 @@
+\hypertarget{class_ejem___mantenimiento___personas_1_1_conexion}{}\section{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas.\+Conexion Class Reference}
+\label{class_ejem___mantenimiento___personas_1_1_conexion}\index{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas.\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas.\+Conexion}}
+
+
+Class \mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_conexion}{Conexion}}. Gestiona la conexion y transferencia de datos a la base de datos.  
+
+
+
+
+Collaboration diagram for Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas.\+Conexion\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_ejem___mantenimiento___personas_1_1_conexion__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_conexion_a6eb70e84b86424966c75d5859d241a40}{Cliente\+Registrado}} (int id)
+\begin{DoxyCompactList}\small\item\em Verifica la existencia de un cliente en la base de datos. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_conexion_a8f2099b092af61b02fa7b96c491fe1f5}{Insertar}} (\mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_cliente}{Cliente}} cli)
+\begin{DoxyCompactList}\small\item\em Agrega un cliente a la base de datos. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_conexion_a1fc3cac8eff1c8f2f7197b56e7209df6}{Modificar}} (\mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_cliente}{Cliente}} cli)
+\begin{DoxyCompactList}\small\item\em Actualiza el registro del cliente, en la base de datos. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_conexion_a97b8be1c8c50cfb4d2f0babd96567262}{Eliminar}} (int id)
+\begin{DoxyCompactList}\small\item\em Elimina el cliente seleccionado de la base de datos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_conexion_a7907319c7bc72f21b509cc5812b5896c}{Cargar\+Cliente\+Al\+Data\+Grid\+View}} (Data\+Grid\+View data\+Drid\+View)
+\begin{DoxyCompactList}\small\item\em Carga la lista de clientes de la base de datos al Data\+Grid\+View. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_conexion}{Conexion}}. Gestiona la conexion y transferencia de datos a la base de datos. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ejem___mantenimiento___personas_1_1_conexion_a7907319c7bc72f21b509cc5812b5896c}\label{class_ejem___mantenimiento___personas_1_1_conexion_a7907319c7bc72f21b509cc5812b5896c}} 
+\index{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion}!Cargar\+Cliente\+Al\+Data\+Grid\+View@{Cargar\+Cliente\+Al\+Data\+Grid\+View}}
+\index{Cargar\+Cliente\+Al\+Data\+Grid\+View@{Cargar\+Cliente\+Al\+Data\+Grid\+View}!Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion}}
+\subsubsection{\texorpdfstring{Cargar\+Cliente\+Al\+Data\+Grid\+View()}{CargarClienteAlDataGridView()}}
+{\footnotesize\ttfamily void Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas.\+Conexion.\+Cargar\+Cliente\+Al\+Data\+Grid\+View (\begin{DoxyParamCaption}\item[{Data\+Grid\+View}]{data\+Drid\+View }\end{DoxyParamCaption})}
+
+
+
+Carga la lista de clientes de la base de datos al Data\+Grid\+View. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+Drid\+View} & Data\+Grid\+View a ser rellenado por la lista de clientes de la base de datos.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_ejem___mantenimiento___personas_1_1_conexion_a6eb70e84b86424966c75d5859d241a40}\label{class_ejem___mantenimiento___personas_1_1_conexion_a6eb70e84b86424966c75d5859d241a40}} 
+\index{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion}!Cliente\+Registrado@{Cliente\+Registrado}}
+\index{Cliente\+Registrado@{Cliente\+Registrado}!Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion}}
+\subsubsection{\texorpdfstring{Cliente\+Registrado()}{ClienteRegistrado()}}
+{\footnotesize\ttfamily bool Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas.\+Conexion.\+Cliente\+Registrado (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Verifica la existencia de un cliente en la base de datos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id del cliente que se desea verificar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna un bool. True si existe / False si no existe.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ejem___mantenimiento___personas_1_1_conexion_a97b8be1c8c50cfb4d2f0babd96567262}\label{class_ejem___mantenimiento___personas_1_1_conexion_a97b8be1c8c50cfb4d2f0babd96567262}} 
+\index{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion}!Eliminar@{Eliminar}}
+\index{Eliminar@{Eliminar}!Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion}}
+\subsubsection{\texorpdfstring{Eliminar()}{Eliminar()}}
+{\footnotesize\ttfamily string Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas.\+Conexion.\+Eliminar (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Elimina el cliente seleccionado de la base de datos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id del cliente que se desea verificar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna un String. Con el mensaje de salida.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ejem___mantenimiento___personas_1_1_conexion_a8f2099b092af61b02fa7b96c491fe1f5}\label{class_ejem___mantenimiento___personas_1_1_conexion_a8f2099b092af61b02fa7b96c491fe1f5}} 
+\index{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion}!Insertar@{Insertar}}
+\index{Insertar@{Insertar}!Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion}}
+\subsubsection{\texorpdfstring{Insertar()}{Insertar()}}
+{\footnotesize\ttfamily string Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas.\+Conexion.\+Insertar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_cliente}{Cliente}}}]{cli }\end{DoxyParamCaption})}
+
+
+
+Agrega un cliente a la base de datos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cli} & Classe \mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_cliente}{Cliente}}\+: Modelo de datos para el cliente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna un String. Con el mensaje de salida.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ejem___mantenimiento___personas_1_1_conexion_a1fc3cac8eff1c8f2f7197b56e7209df6}\label{class_ejem___mantenimiento___personas_1_1_conexion_a1fc3cac8eff1c8f2f7197b56e7209df6}} 
+\index{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion}!Modificar@{Modificar}}
+\index{Modificar@{Modificar}!Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion@{Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas\+::\+Conexion}}
+\subsubsection{\texorpdfstring{Modificar()}{Modificar()}}
+{\footnotesize\ttfamily string Ejem\+\_\+\+Mantenimiento\+\_\+\+Personas.\+Conexion.\+Modificar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_cliente}{Cliente}}}]{cli }\end{DoxyParamCaption})}
+
+
+
+Actualiza el registro del cliente, en la base de datos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cli} & Classe \mbox{\hyperlink{class_ejem___mantenimiento___personas_1_1_cliente}{Cliente}}\+: Modelo de datos para el cliente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna un String. Con el mensaje de salida.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Conexion.\+cs\end{DoxyCompactItemize}
